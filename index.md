@@ -10,3 +10,4 @@ output: html_document
 
 * [Github Repositories](https://github.com/RePsychLing)
 * [Tutorial Setup](https://github.com/RePsychLing/TutorialSetup)
+* [Tutorial Schedule](tutorial.html)
