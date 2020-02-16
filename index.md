@@ -9,5 +9,4 @@ output: html_document
 ## Links
 
 * [Github Repositories](https://github.com/RePsychLing)
-* [Tutorial Setup](https://github.com/RePsychLing/TutorialSetup)
 * [Tutorial Schedule](tutorial.html)
