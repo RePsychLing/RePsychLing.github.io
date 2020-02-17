@@ -33,10 +33,13 @@ Setting up:
 
 * Open the `LMMComplexity` directory in VSCode
 * Open the file `Complexity.jmd`
-* Shift-cmd-P to open the commands window and search for "Julia: Start REPL"
-* Type "]" in the Terminal window in VSCode to get the `pkg` prompt
-* Type "activate ."
+* Shift-cmd-P to open the commands window and search for `Julia: Start REPL`
+* Type `]` in the Terminal window in VSCode to get the `pkg` prompt
+* Type `activate .`
 * Use backspace to get back to the julia prompt
+* Change the version of `MixedModels`
+    - Get the `pkg` prompt with `]`
+    - Type `add MixedModels#master`
 
 ### Installation Check
 
