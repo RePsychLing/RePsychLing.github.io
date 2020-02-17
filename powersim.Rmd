@@ -9,5 +9,6 @@ author: "Lisa DeBruine <https://debruine.github.io>"
     - `git clone https://github.com/RePsychLing/sim-tutorial`
 * [MixedModelsSim package](https://github.com/RePsychLing/MixedModelsSim.jl)
     - pkg> `add https://github.com/RePsychLing/MixedModelsSim.jl`
+* install `dplyr`, `tidyr` and `ggplot2` in R if they aren't there already
 * julia> `using IJulia`
 * julia> `IJulia.notebook(dir = ".")`
