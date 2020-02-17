@@ -66,5 +66,6 @@ Convenors: Reinhold Kliegl and Douglas Bates
 
 ## Power Simulation: Lisa DeBruine
 
-* [GitHub Repository](https://github.com/RePsychLing/sim-tutorial)
+* [GitHub Repository](https://github.com/RePsychLing/sim-tutorial) `git clone https://github.com/RePsychLing/sim-tutorial`
 * [MixedModelsSim package](https://github.com/RePsychLing/MixedModelsSim.jl)
+    - pkg> `add https://github.com/RePsychLing/MixedModelsSim.jl`
