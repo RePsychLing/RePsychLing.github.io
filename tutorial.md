@@ -83,7 +83,7 @@ Compare models: `MixedModels.likelihoodratiotest(m3, m4)`
 
 *Reinhold Kliegl*
 
-* [Github Repository](https://github.com/RePsychLing/MRK17_Exp1) 
+* [Github Repository](https://github.com/RePsychLing/MRK17_Exp1) `git clone https://github.com/RePsychLing/MRK17_Exp1.git`
 
 ### Setting up
 
