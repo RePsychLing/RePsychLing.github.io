@@ -53,7 +53,8 @@ Convenors: Reinhold Kliegl and Douglas Bates
 * julia> `convert_doc("Complexity.jmd", "Complexity.ipynb")`
 * julia> `using IJulia`
 * julia> `IJulia.notebook(dir=".")`
-
+* Some installation might happen, then your working directory will open in a web browser window. 
+* Click on Complexity.ipynb to open it
 
 ## Installation Check
 
