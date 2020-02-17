@@ -106,8 +106,13 @@ Compare models: `MixedModels.likelihoodratiotest(m3, m4)`
 * Use backspace to get back to the julia prompt
 
 Illustrate execution from `jmd` file.
-Illustrate execution from `ipynb` file  
 
+Illustrate execution from `ipynb` file
+
+* julia> `using Weave`
+* julia> `convert_doc("MRK17_Exp1_rk01.jmd", "MRK17_Exp1_rk01.ipynb")`
+* julia> `using IJulia`
+* julia> `IJulia.notebook(dir=".")`
 
 ## Power Simulation
 
