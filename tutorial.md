@@ -54,7 +54,8 @@ Convenors: Reinhold Kliegl and Douglas Bates
 * julia> `using IJulia`
 * julia> `IJulia.notebook(dir=".")`
 * Some installation might happen, then your working directory will open in a web browser window. 
-* Click on Complexity.ipynb to open it
+* Click on `Complexity.ipynb` to open it
+* Put your cursor in a code block and type ctrl-Enter to run the block. You will see [*] to the left while it's running, and [1] after it runs.
 
 ## Installation Check
 
