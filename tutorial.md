@@ -34,7 +34,7 @@ Convenors: Reinhold Kliegl and Douglas Bates
     - Now you can type, e.g., `\beta` and tab to get $\beta$
     - Type, e.g., `\_1` (tab) to get subscripts
 * In the julia REPL:
-    - `]` to access pkg
+    - `]` to access pkg ([cheat sheet](pkg.html))
     - `;` to access the shell
     - `?` to access help
     - `$` to access R (if using RCall)
