@@ -27,7 +27,12 @@ Convenors: Reinhold Kliegl and Douglas Bates
 * [Github Repositories](https://github.com/RePsychLing)
 * [CheatSheet](https://juliadocs.github.io/Julia-Cheat-Sheet/)
 * [Punctuation](https://docs.julialang.org/en/v1/base/punctuation/): brief documentation for mathematical symbols & functions
-
+* Shift-cmd-P in VSCode to get command list
+* To get greek letters, install the latex-input extension in VSCode
+    - Click on the Extensions tab in the left column (looks like window panes)
+    - Search for `latex-input` and click the install button
+    - Now you can type, e.g., `\beta` and tab to get $\beta$
+    - Type, e.g., `\_1` (tab) to get subscripts
 
 ## Introduction
 
@@ -64,14 +69,6 @@ Convenors: Reinhold Kliegl and Douglas Bates
     - Loading packages can take a long time the first time you run a script because of the precompiling.
 
 Compare models: `MixedModels.likelihoodratiotest(m3, m4)`
-    
-### Tips
-
-* To get greek letters, install the latex-input extension in VSCode
-    - Click on the Extensions tab in the left column (looks like window panes)
-    - Search for `latex-input` and click the install button
-    - Now you can type, e.g., `\beta` and tab to get $\beta$
-    - Type, e.g., `\_1` (tab) to get subscripts
 
 
 
