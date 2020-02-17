@@ -9,9 +9,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="Douglas Bates" />
 
 
-<title>Mixed Models in the Julia Programming Language</title>
+<title>Introduction</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -301,113 +302,59 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Mixed Models in the Julia Programming Language</h1>
+<h1 class="title toc-ignore">Introduction</h1>
+<h4 class="author">Douglas Bates</h4>
 
 </div>
 
 <div id="TOC">
 <ul>
-<li><a href="#schedule">Schedule</a></li>
-<li><a href="#notes-and-links">Notes and Links</a></li>
+<li><a href="#setting-up">Setting up</a></li>
+<li><a href="#convert-.jmd-to-interactive-python-notebook">Convert .jmd to interactive python notebook</a></li>
 </ul>
 </div>
 
-<p>Convenors: Reinhold Kliegl and Douglas Bates</p>
-<div id="schedule" class="section level2">
-<h2>Schedule</h2>
-<table>
-<colgroup>
-<col width="31%" />
-<col width="19%" />
-<col width="21%" />
-<col width="26%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Time</th>
-<th>Monday</th>
-<th>Tuesday</th>
-<th>Wednesday</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>08:00-09:00</td>
-<td>Breakfast</td>
-<td>Breakfast</td>
-<td>Breakfast</td>
-</tr>
-<tr class="even">
-<td>09:00-10:30</td>
-<td>Douglas Bates: <a href="intro.html">Introduction</a></td>
-<td>Phillip Alday: rePCA extensions<br><br> Christina Bergmann: <a href="manybabies.html">Reanalysis of ManyBabies1</a></td>
-<td>Anna Gert: Reanalysis of EEG data<br><br> Benedikt Ehinger / Dave Kleinschmidt: Mixed-model timeseries analysis<br><br> Hannes Matuschek: Prewhitening of LMMs</td>
-</tr>
-<tr class="odd">
-<td>10:30-11:00</td>
-<td>Coffee &amp; Tea</td>
-<td>Coffee &amp; Tea</td>
-<td>Coffee &amp; Tea</td>
-</tr>
-<tr class="even">
-<td>11:00-12:30</td>
-<td>Installation Check<br><br> Reinhold Kliegl: <a href="complex.html">Workflow for a complex LMM example</a></td>
-<td>Dave Kleinschmidt: Formulas<br><br> Bayoán Calderón: Setup of Julia projects</td>
-<td>Phillip Alday: Julia-R bridge, Parallel threads<br><br> Douglas Bates: Confidence intervals for parameters</td>
-</tr>
-<tr class="odd">
-<td>12:30-14:00</td>
-<td>Lunch</td>
-<td>Lunch</td>
-<td>Lunch</td>
-</tr>
-<tr class="even">
-<td>14:00-15:30</td>
-<td>Participant issues</td>
-<td>Participant issues</td>
-<td>Participant issues</td>
-</tr>
-<tr class="odd">
-<td>15:30-16:00</td>
-<td>Coffee &amp; Tea</td>
-<td>Coffee &amp; Tea</td>
-<td>Coffee &amp; Tea</td>
-</tr>
-<tr class="even">
-<td>16:00-17:30</td>
-<td>Lisa DeBruine: <a href="powersim.html">Power simulation</a></td>
-<td>Participant issues</td>
-<td>Open forum feedback</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div id="notes-and-links" class="section level2">
-<h2>Notes and Links</h2>
 <ul>
-<li><a href="https://github.com/RePsychLing/TutorialSetup">Tutorial Setup</a></li>
-<li><a href="https://github.com/RePsychLing">Github Repositories</a></li>
-<li><a href="https://juliadocs.github.io/Julia-Cheat-Sheet/">CheatSheet</a></li>
-<li><a href="https://docs.julialang.org/en/v1/base/punctuation/">Punctuation</a>: brief documentation for mathematical symbols &amp; functions</li>
-<li>Shift-cmd-P in VSCode to get command list</li>
-<li><a href="pkg.html">Julia Package Management</a> (by Dave Kleinschmidt)</li>
-<li>To get greek letters, install the latex-input extension in VSCode
+<li><a href="https://github.com/RePsychLing/LMMComplexity">LMM Complexities</a>
 <ul>
-<li>Click on the Extensions tab in the left column (looks like window panes)</li>
-<li>Search for <code>latex-input</code> and click the install button</li>
-<li>Now you can type, e.g., <code>\beta</code> and tab to get <span class="math inline">\(\beta\)</span></li>
-<li>Type, e.g., <code>\_1</code> (tab) to get subscripts</li>
+<li><code>git clone https://github.com/RePsychLing/LMMComplexity.git</code></li>
+<li><code>git clone https://github.com/dalejbarr/kronmueller-barr-2007.git</code></li>
 </ul></li>
-<li>In the julia REPL:
+<li><a href="https://nextjournal.com/dmbates/complexity-in-fitting-linear-mixed-models/">NextJournal article</a></li>
+</ul>
+<div id="setting-up" class="section level3">
+<h3>Setting up</h3>
 <ul>
-<li><code>]</code> to access pkg</li>
-<li><code>;</code> to access the shell</li>
-<li><code>?</code> to access help</li>
-<li><code>$</code> to access R (if using RCall)</li>
-<li>backspace to get back to julia</li>
-<li>cmd-K to clear the REPL</li>
+<li>Open the <code>LMMComplexity</code> directory in VSCode</li>
+<li>Open the file <code>Complexity.jmd</code></li>
+<li>Shift-cmd-P (⇧⌘P) to open the commands window and search for <code>Julia: Start REPL</code></li>
+<li>Type <code>]</code> in the Terminal window in VSCode to get the <code>pkg</code> prompt</li>
+<li>pkg&gt; <code>activate .</code></li>
+<li>Use backspace to get back to the julia prompt</li>
+<li>Add/update some packages (get the <code>pkg</code> prompt with <code>]</code>)
+<ul>
+<li>pkg&gt; <code>add Tables@0.2</code></li>
+<li>pkg&gt;<code>add MixedModels#master</code></li>
+<li>pkg&gt;<code>add IJulia</code></li>
 </ul></li>
 </ul>
+</div>
+<div id="convert-.jmd-to-interactive-python-notebook" class="section level3">
+<h3>Convert .jmd to interactive python notebook</h3>
+<ul>
+<li>julia&gt; <code>using Weave</code></li>
+<li>julia&gt; <code>convert_doc(&quot;Complexity.jmd&quot;, &quot;Complexity.ipynb&quot;)</code></li>
+<li>julia&gt; <code>using IJulia</code></li>
+<li>julia&gt; <code>IJulia.notebook(dir=&quot;.&quot;)</code></li>
+<li>Some installation might happen, then your working directory will open in a web browser window.</li>
+<li>Click on <code>Complexity.ipynb</code> to open it</li>
+<li>Put your cursor in a code block and type ctrl-Enter to run the block
+<ul>
+<li>You will see [*] to the left while it’s running, and [1] after it runs.</li>
+<li>Loading packages can take a long time the first time you run a script because of the precompiling.</li>
+</ul></li>
+</ul>
+<p>Compare models: <code>MixedModels.likelihoodratiotest(m3, m4)</code></p>
 </div>
 
 

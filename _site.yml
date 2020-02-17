@@ -1,0 +1,30 @@
+name: "RePsychLing"
+author: "RePsychLing"
+output_dir: "docs"
+exclude: ["*.xls", "*.csv","*.R"]
+output:
+  html_document:
+    toc: true
+    toc_float: no
+    toc_depth: 4
+    df_print: paged
+    theme: flatly
+    highlight: tango
+navbar:
+  title: "RePsychLing"
+  left:
+  - text: "RePsychLing"
+    icon: fa-home
+    href: /
+  - text: "Tutorial"  
+    menu: 
+    - text: "Schedule"
+      href: tutorial.html
+    - text: "Introduction"
+      href: intro.html
+    - text: "Complex Models"
+      href: complex.html
+    - text: "Power Simulation"
+      href: powersim.html
+    - text: "Packages"
+      href: pkg.html

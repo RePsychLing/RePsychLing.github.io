@@ -1,0 +1,6 @@
+---
+title: "Many Babies"
+author: "Christina Bergmann"
+---
+
+* [GitHub Repository](https://github.com/RePsychLing/mb1) `git clone https://github.com/RePsychLing/mb1.git`
