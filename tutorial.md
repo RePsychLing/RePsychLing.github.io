@@ -25,6 +25,7 @@ Convenors: Reinhold Kliegl and Douglas Bates
 ## Notes and Links
 
 * [Github Repositories](https://github.com/RePsychLing)
+* [CheatSheet](https://juliadocs.github.io/Julia-Cheat-Sheet/)
 
 
 ## Introduction
