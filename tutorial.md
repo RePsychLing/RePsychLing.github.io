@@ -3,7 +3,7 @@ title: "Mixed Models in the Julia Programming Language"
 output: html_document
 ---
 
-onvenors: Reinhold Kliegl and Douglas Bates
+Convenors: Reinhold Kliegl and Douglas Bates
 
 ## Schedule
 
