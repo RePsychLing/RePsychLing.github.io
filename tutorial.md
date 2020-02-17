@@ -33,6 +33,12 @@ Convenors: Reinhold Kliegl and Douglas Bates
     - Search for `latex-input` and click the install button
     - Now you can type, e.g., `\beta` and tab to get $\beta$
     - Type, e.g., `\_1` (tab) to get subscripts
+* In the julia REPL:
+    - `]` to access pkg
+    - `;` to access the shell
+    - `?` to access help
+    - `$` to access R (if using RCall)
+    - backspace to get back to julia
 
 ## Introduction
 
@@ -84,6 +90,10 @@ Compare models: `MixedModels.likelihoodratiotest(m3, m4)`
 
 ### Setting up
 
+* In VSCode open julia REPL and type ";" to access the shell
+    * shell> `cd /dir/where/repo/goes/`
+    * shell> `git clone https://github.com/RePsychLing/MRK17_Exp1.git`
+    * shell> `cd MRK17_Exp1`
 * Open the `MRK17_Exp1` directory in VSCode
 * Open the file `MRK17_Exp1_rk01.jmd`
 * Shift-cmd-P to open the commands window and search for `Julia: Start REPL`
