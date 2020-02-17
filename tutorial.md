@@ -26,7 +26,7 @@ Convenors: Reinhold Kliegl and Douglas Bates
 
 * [LMM Complexities](https://github.com/RePsychLing/LMMComplexity)
     - `git clone https://github.com/RePsychLing/LMMComplexity.git`
-    - `git clone git@github.com:dalejbarr/kronmueller-barr-2007`
+    - `git clone https://github.com/dalejbarr/kronmueller-barr-2007.git`
 * [NextJournal article](https://nextjournal.com/dmbates/complexity-in-fitting-linear-mixed-models/)
 
 ### Installation Check
