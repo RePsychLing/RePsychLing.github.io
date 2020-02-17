@@ -67,6 +67,7 @@ Convenors: Reinhold Kliegl and Douglas Bates
     - Click on the Extensions tab in the left column (looks like window panes)
     - Search for `latex-input` and click the install button
     - Now you can type, e.g., `\beta` and tab to get $\beta$
+    - Type, e.g., `\_1` (tab) to get subscripts
 
 
 
