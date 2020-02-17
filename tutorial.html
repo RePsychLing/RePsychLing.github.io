@@ -1606,16 +1606,18 @@ div.tocify {
 <li>Open the file <code>Complexity.jmd</code></li>
 <li>Shift-cmd-P to open the commands window and search for <code>Julia: Start REPL</code></li>
 <li>Type <code>]</code> in the Terminal window in VSCode to get the <code>pkg</code> prompt</li>
-<li>Type <code>activate .</code></li>
+<li>pkg&gt; <code>activate .</code></li>
 <li>Use backspace to get back to the julia prompt</li>
 <li>Add/update some packages (get the <code>pkg</code> prompt with <code>]</code>)
 <ul>
-<li><code>add Tables@0.2</code></li>
-<li><code>add MixedModels#master</code></li>
-<li><code>add IJulia</code></li>
+<li>pkg&gt; <code>add Tables@0.2</code></li>
+<li>pkg&gt;<code>add MixedModels#master</code></li>
+<li>pkg&gt;<code>add IJulia</code></li>
 </ul></li>
 </ul>
-<p>Convert .jmd to interactive python notebook</p>
+</div>
+<div id="convert-.jmd-to-interactive-python-notebook" class="section level3">
+<h3>Convert .jmd to interactive python notebook</h3>
 <ul>
 <li>julia&gt; <code>using Weave</code></li>
 <li>julia&gt; <code>convert_doc(&quot;Complexity.jmd&quot;, &quot;Complexity.ipynb&quot;)</code></li>

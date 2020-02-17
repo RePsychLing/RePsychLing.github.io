@@ -40,14 +40,14 @@ Convenors: Reinhold Kliegl and Douglas Bates
 * Open the file `Complexity.jmd`
 * Shift-cmd-P to open the commands window and search for `Julia: Start REPL`
 * Type `]` in the Terminal window in VSCode to get the `pkg` prompt
-* Type `activate .`
+* pkg> `activate .`
 * Use backspace to get back to the julia prompt
 * Add/update some packages (get the `pkg` prompt with `]`)
-    - `add Tables@0.2`
-    - `add MixedModels#master`
-    - `add IJulia`
+    - pkg> `add Tables@0.2`
+    - pkg>`add MixedModels#master`
+    - pkg>`add IJulia`
 
-Convert .jmd to interactive python notebook
+### Convert .jmd to interactive python notebook
 
 * julia> `using Weave`
 * julia> `convert_doc("Complexity.jmd", "Complexity.ipynb")`
