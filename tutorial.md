@@ -64,9 +64,9 @@ Convenors: Reinhold Kliegl and Douglas Bates
 ### Tips
 
 * To get greek letters, install the latex-input extension in VSCode
-* Click on the Extensions tab in the left column (looks like window panes)
-* Search for `latex-input` and click the install button
-* Now you can type, e.g.,  `\beta` and tab to get $\beta$
+    - Click on the Extensions tab in the left column (looks like window panes)
+    - Search for `latex-input` and click the install button
+    - Now you can type, e.g., `\beta` and tab to get $\beta$
 
 
 
