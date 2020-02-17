@@ -69,7 +69,22 @@ Convenors: Reinhold Kliegl and Douglas Bates
 
 *Reinhold Kliegl*
 
-* [Github Repository](https://github.com/RePsychLing/MRK17_Exp1)
+* [Github Repository](https://github.com/RePsychLing/MRK17_Exp1) 
+
+### Setting up
+* Open the `MRK17_Exp1` directory in VSCode
+* Open the file `MRK17_Exp1_rk01.jmd`
+* Shift-cmd-P to open the commands window and search for `Julia: Start REPL`
+* Type `]` in the Terminal window in VSCode to get the `pkg` prompt
+* pkg> `activate .`
+* Add/update some packages (get the `pkg` prompt with `]`)
+    - pkg> `add MixedModels#master`
+    - pkg> `st`
+* Use backspace to get back to the julia prompt
+
+Illustrate execution from `jmd` file.
+Illustrate execution from `ipynb` file  
+
 
 ## Power Simulation
 
