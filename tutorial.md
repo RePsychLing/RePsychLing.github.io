@@ -26,6 +26,7 @@ Convenors: Reinhold Kliegl and Douglas Bates
 
 * [Github Repositories](https://github.com/RePsychLing)
 
+
 ## Introduction: Douglas Bates
 
 * [LMM Complexities](https://github.com/RePsychLing/LMMComplexity)
@@ -46,9 +47,18 @@ Convenors: Reinhold Kliegl and Douglas Bates
     - `add MixedModels#master`
     - `add IJulia`
 
+Convert .jmd to interactive python notebook
+
+* julia> `using Weave`
+* julia> `convert_doc("Complexity.jmd", "Complexity.ipynb")`
+* julia> `using IJulia`
+* julia> `IJulia.notebook(dir=".")`
+
+
 ## Installation Check
 
 * [Tutorial Setup](https://github.com/RePsychLing/TutorialSetup)
+
 
 ## Power Simulation: Lisa DeBruine
 

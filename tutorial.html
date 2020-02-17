@@ -1615,6 +1615,13 @@ div.tocify {
 <li><code>add IJulia</code></li>
 </ul></li>
 </ul>
+<p>Convert .jmd to interactive python notebook</p>
+<ul>
+<li>julia&gt; <code>using Weave</code></li>
+<li>julia&gt; <code>convert_doc(&quot;Complexity.jmd&quot;, &quot;Complexity.ipynb&quot;)</code></li>
+<li>julia&gt; <code>using IJulia</code></li>
+<li>julia&gt; <code>IJulia.notebook(dir=&quot;.&quot;)</code></li>
+</ul>
 </div>
 </div>
 <div id="installation-check" class="section level2">
