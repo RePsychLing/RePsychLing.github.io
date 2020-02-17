@@ -54,7 +54,7 @@ Convenors: Reinhold Kliegl and Douglas Bates
 
 * Open the `LMMComplexity` directory in VSCode
 * Open the file `Complexity.jmd`
-* Shift-cmd-P to open the commands window and search for `Julia: Start REPL`
+* Shift-cmd-P (&#8679;&#8984;P) to open the commands window and search for `Julia: Start REPL`
 * Type `]` in the Terminal window in VSCode to get the `pkg` prompt
 * pkg> `activate .`
 * Use backspace to get back to the julia prompt
@@ -91,7 +91,7 @@ Compare models: `MixedModels.likelihoodratiotest(m3, m4)`
 
 ### Setting up
 
-* In VSCode open julia REPL and type ";" to access the shell
+* In VSCode open julia REPL (&#8679;&#8984;P) and type ";" to access the shell
     * shell> `cd /dir/where/repo/goes/`
     * shell> `git clone https://github.com/RePsychLing/MRK17_Exp1.git`
     * shell> `cd MRK17_Exp1`
