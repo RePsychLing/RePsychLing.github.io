@@ -1,6 +1,6 @@
 ---
 title: "Many Babies"
-author: "Christina Bergmann"
+author: "Christina Bergmann <https://www.mpi.nl/people/bergmann-christina>"
 ---
 
 * [GitHub Repository](https://github.com/RePsychLing/mb1) `git clone https://github.com/RePsychLing/mb1.git`

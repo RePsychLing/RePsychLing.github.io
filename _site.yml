@@ -25,3 +25,5 @@ navbar:
       href: powersim.html
     - text: "Packages"
       href: pkg.html
+    - text: "ManyBabies"
+      href: manybabies.html
