@@ -26,6 +26,7 @@ Convenors: Reinhold Kliegl and Douglas Bates
 
 * [Github Repositories](https://github.com/RePsychLing)
 * [CheatSheet](https://juliadocs.github.io/Julia-Cheat-Sheet/)
+* [Punctuation](https://docs.julialang.org/en/v1/base/punctuation/): brief documentation for mathematical symbols & functions
 
 
 ## Introduction
@@ -83,6 +84,7 @@ Convenors: Reinhold Kliegl and Douglas Bates
 * [Github Repository](https://github.com/RePsychLing/MRK17_Exp1) 
 
 ### Setting up
+
 * Open the `MRK17_Exp1` directory in VSCode
 * Open the file `MRK17_Exp1_rk01.jmd`
 * Shift-cmd-P to open the commands window and search for `Julia: Start REPL`
