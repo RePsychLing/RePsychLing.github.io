@@ -39,6 +39,7 @@ Convenors: Reinhold Kliegl and Douglas Bates
     - `?` to access help
     - `$` to access R (if using RCall)
     - backspace to get back to julia
+    - cmd-K to clear the REPL
 
 ## Introduction
 
