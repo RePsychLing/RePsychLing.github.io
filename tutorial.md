@@ -1,6 +1,10 @@
 ---
 title: "Mixed Models in the Julia Programming Language"
-output: html_document
+output: 
+  html_document:
+    toc: true
+    toc_depth: 4
+    toc_float: true
 ---
 
 Convenors: Reinhold Kliegl and Douglas Bates
@@ -22,14 +26,14 @@ Convenors: Reinhold Kliegl and Douglas Bates
 
 * [Github Repositories](https://github.com/RePsychLing)
 
-### Introduction: Douglas Bates
+## Introduction: Douglas Bates
 
 * [LMM Complexities](https://github.com/RePsychLing/LMMComplexity)
     - `git clone https://github.com/RePsychLing/LMMComplexity.git`
     - `git clone https://github.com/dalejbarr/kronmueller-barr-2007.git`
 * [NextJournal article](https://nextjournal.com/dmbates/complexity-in-fitting-linear-mixed-models/)
 
-Setting up:
+### Setting up
 
 * Open the `LMMComplexity` directory in VSCode
 * Open the file `Complexity.jmd`
@@ -38,14 +42,15 @@ Setting up:
 * Type `activate .`
 * Use backspace to get back to the julia prompt
 * Add/update some packages (get the `pkg` prompt with `]`)
+    - `add Tables@0.2`
     - `add MixedModels#master`
     - `add IJulia`
 
-### Installation Check
+## Installation Check
 
 * [Tutorial Setup](https://github.com/RePsychLing/TutorialSetup)
 
-### Power Simulation: Lisa DeBruine
+## Power Simulation: Lisa DeBruine
 
 * [GitHub Repository](https://github.com/RePsychLing/sim-tutorial)
 * [MixedModelsSim package](https://github.com/RePsychLing/MixedModelsSim.jl)
