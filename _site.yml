@@ -4,9 +4,6 @@ output_dir: "docs"
 exclude: ["*.xls", "*.csv","*.R"]
 output:
   html_document:
-    toc: true
-    toc_float: no
-    toc_depth: 4
     df_print: paged
     theme: flatly
     highlight: tango
