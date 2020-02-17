@@ -6,7 +6,7 @@ Convenors: Reinhold Kliegl and Douglas Bates
 
 ## Schedule
 
-```{r, echo = FALSE}
+```{r, echo = FALSE, message=FALSE}
 require(dplyr, quietly = TRUE)
 require(tidyr, quietly = TRUE)
 require(kableExtra, quietly = TRUE)
