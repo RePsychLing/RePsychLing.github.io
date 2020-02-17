@@ -55,7 +55,9 @@ Convenors: Reinhold Kliegl and Douglas Bates
 * julia> `IJulia.notebook(dir=".")`
 * Some installation might happen, then your working directory will open in a web browser window. 
 * Click on `Complexity.ipynb` to open it
-* Put your cursor in a code block and type ctrl-Enter to run the block. You will see [*] to the left while it's running, and [1] after it runs.
+* Put your cursor in a code block and type ctrl-Enter to run the block
+    - You will see [*] to the left while it's running, and [1] after it runs.
+    - Loading packages can take a long time the first time you run a script because of the precompiling.
 
 ## Installation Check
 
