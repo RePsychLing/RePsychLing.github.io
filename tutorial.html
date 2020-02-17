@@ -22,6 +22,7 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
 <script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
@@ -285,10 +286,10 @@ $(document).ready(function () {
       <a href="powersim.html">Power Simulation</a>
     </li>
     <li>
-      <a href="pkg.html">Packages</a>
+      <a href="manybabies.html">ManyBabies</a>
     </li>
     <li>
-      <a href="manybabies.html">ManyBabies</a>
+      <a href="pkg.html">Package Management</a>
     </li>
   </ul>
 </li>
@@ -312,69 +313,153 @@ $(document).ready(function () {
 <p>Convenors: Reinhold Kliegl and Douglas Bates</p>
 <div id="schedule" class="section level2">
 <h2>Schedule</h2>
-<table>
-<colgroup>
-<col width="31%" />
-<col width="19%" />
-<col width="21%" />
-<col width="26%" />
-</colgroup>
+<pre><code>## 
+## Attaching package: &#39;dplyr&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union</code></pre>
+<pre><code>## 
+## Attaching package: &#39;kableExtra&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:dplyr&#39;:
+## 
+##     group_rows</code></pre>
+<table class="table" style="margin-left: auto; margin-right: auto;">
 <thead>
-<tr class="header">
-<th>Time</th>
-<th>Monday</th>
-<th>Tuesday</th>
-<th>Wednesday</th>
+<tr>
+<th style="text-align:left;">
+time
+</th>
+<th style="text-align:left;">
+Monday
+</th>
+<th style="text-align:left;">
+Tuesday
+</th>
+<th style="text-align:left;">
+Wednesday
+</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td>08:00-09:00</td>
-<td>Breakfast</td>
-<td>Breakfast</td>
-<td>Breakfast</td>
+<tr>
+<td style="text-align:left;">
+08:00-09:00
+</td>
+<td style="text-align:left;">
+Breakfast
+</td>
+<td style="text-align:left;">
+Breakfast
+</td>
+<td style="text-align:left;">
+Breakfast
+</td>
 </tr>
-<tr class="even">
-<td>09:00-10:30</td>
-<td>Douglas Bates: <a href="intro.html">Introduction</a></td>
-<td>Phillip Alday: rePCA extensions<br><br> Christina Bergmann: <a href="manybabies.html">Reanalysis of ManyBabies1</a></td>
-<td>Anna Gert: Reanalysis of EEG data<br><br> Benedikt Ehinger / Dave Kleinschmidt: Mixed-model timeseries analysis<br><br> Hannes Matuschek: Prewhitening of LMMs</td>
+<tr>
+<td style="text-align:left;">
+09:00-10:30
+</td>
+<td style="text-align:left;">
+Douglas Bates: <a href="intro.html">Introduction</a>
+</td>
+<td style="text-align:left;">
+<p>Phillip Alday: rePCA extensions</p>
+Christina Bergmann: <a href="manybabies.html">Reanalysis of ManyBabies1</a>
+</td>
+<td style="text-align:left;">
+<p>Benedikt Ehinger / Dave Kleinschmidt: Mixed-model timeseries analysis</p>
+Hannes Matuschek: Prewhitening of LMMs
+</td>
 </tr>
-<tr class="odd">
-<td>10:30-11:00</td>
-<td>Coffee &amp; Tea</td>
-<td>Coffee &amp; Tea</td>
-<td>Coffee &amp; Tea</td>
+<tr>
+<td style="text-align:left;">
+10:30-11:00
+</td>
+<td style="text-align:left;">
+Coffee &amp; Tea
+</td>
+<td style="text-align:left;">
+Coffee &amp; Tea
+</td>
+<td style="text-align:left;">
+Coffee &amp; Tea
+</td>
 </tr>
-<tr class="even">
-<td>11:00-12:30</td>
-<td>Installation Check<br><br> Reinhold Kliegl: <a href="complex.html">Workflow for a complex LMM example</a></td>
-<td>Dave Kleinschmidt: Formulas<br><br> Bayoán Calderón: Setup of Julia projects</td>
-<td>Phillip Alday: Julia-R bridge, Parallel threads<br><br> Douglas Bates: Confidence intervals for parameters</td>
+<tr>
+<td style="text-align:left;">
+11:00-12:30
+</td>
+<td style="text-align:left;">
+<p><a href="https://github.com/RePsychLing/TutorialSetup">Installation Check</a></p>
+Reinhold Kliegl: <a href="complex.html">Workflow for a complex LMM example</a>
+</td>
+<td style="text-align:left;">
+<p>Dave Kleinschmidt: Formulas</p>
+Bayoan Calderon<a href="">Setup of a Julia Project</a>
+</td>
+<td style="text-align:left;">
+<p>Phillip Alday: Julia-R bridge, Parallel threads</p>
+Douglas Bates: Confidence intervals for parameters
+</td>
 </tr>
-<tr class="odd">
-<td>12:30-14:00</td>
-<td>Lunch</td>
-<td>Lunch</td>
-<td>Lunch</td>
+<tr>
+<td style="text-align:left;">
+12:30-14:00
+</td>
+<td style="text-align:left;">
+Lunch
+</td>
+<td style="text-align:left;">
+Lunch
+</td>
+<td style="text-align:left;">
+Lunch
+</td>
 </tr>
-<tr class="even">
-<td>14:00-15:30</td>
-<td>Participant issues</td>
-<td>Participant issues</td>
-<td>Participant issues</td>
+<tr>
+<td style="text-align:left;">
+14:00-15:30
+</td>
+<td style="text-align:left;">
+Participant Issues
+</td>
+<td style="text-align:left;">
+Participant Issues
+</td>
+<td style="text-align:left;">
+Participant Issues
+</td>
 </tr>
-<tr class="odd">
-<td>15:30-16:00</td>
-<td>Coffee &amp; Tea</td>
-<td>Coffee &amp; Tea</td>
-<td>Coffee &amp; Tea</td>
+<tr>
+<td style="text-align:left;">
+15:30-16:00
+</td>
+<td style="text-align:left;">
+Coffee &amp; Tea
+</td>
+<td style="text-align:left;">
+Coffee &amp; Tea
+</td>
+<td style="text-align:left;">
+Coffee &amp; Tea
+</td>
 </tr>
-<tr class="even">
-<td>16:00-17:30</td>
-<td>Lisa DeBruine: <a href="powersim.html">Power simulation</a></td>
-<td>Participant issues</td>
-<td>Open forum feedback</td>
+<tr>
+<td style="text-align:left;">
+16:00-17:30
+</td>
+<td style="text-align:left;">
+Lisa DeBruine: <a href="powersim.html">Power simulation</a>
+</td>
+<td style="text-align:left;">
+Participant Issues
+</td>
+<td style="text-align:left;">
+Open forum feedback
+</td>
 </tr>
 </tbody>
 </table>

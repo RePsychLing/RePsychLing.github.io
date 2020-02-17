@@ -23,7 +23,7 @@ navbar:
       href: complex.html
     - text: "Power Simulation"
       href: powersim.html
-    - text: "Packages"
-      href: pkg.html
     - text: "ManyBabies"
       href: manybabies.html
+    - text: "Package Management"
+      href: pkg.html
