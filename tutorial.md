@@ -24,6 +24,8 @@ Convenors: Reinhold Kliegl and Douglas Bates
 
 ### Introduction: Douglas Bates
 
+* [LMM Complexities](https://github.com/RePsychLing/LMMComplexity)
+    `git clone https://github.com/RePsychLing/LMMComplexity.git`
 * [NextJournal article](https://nextjournal.com/dmbates/complexity-in-fitting-linear-mixed-models/)
 
 ### Installation Check
