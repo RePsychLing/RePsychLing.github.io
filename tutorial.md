@@ -69,7 +69,7 @@ Convenors: Reinhold Kliegl and Douglas Bates
 
 *Reinhold Kliegl*
 
-* []()
+* [Github Repository](https://github.com/RePsychLing/MRK17_Exp1)
 
 ## Power Simulation
 
