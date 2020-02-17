@@ -37,9 +37,9 @@ Setting up:
 * Type `]` in the Terminal window in VSCode to get the `pkg` prompt
 * Type `activate .`
 * Use backspace to get back to the julia prompt
-* Change the version of `MixedModels`
-    - Get the `pkg` prompt with `]`
-    - Type `add MixedModels#master`
+* Add/update some packages (get the `pkg` prompt with `]`)
+    - `add MixedModels#master`
+    - `add IJulia`
 
 ### Installation Check
 
