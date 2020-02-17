@@ -28,6 +28,7 @@ Convenors: Reinhold Kliegl and Douglas Bates
 * [CheatSheet](https://juliadocs.github.io/Julia-Cheat-Sheet/)
 * [Punctuation](https://docs.julialang.org/en/v1/base/punctuation/): brief documentation for mathematical symbols & functions
 * Shift-cmd-P in VSCode to get command list
+* [Julia Package Management](pkg.html) (by Dave Kleinschmidt)
 * To get greek letters, install the latex-input extension in VSCode
     - Click on the Extensions tab in the left column (looks like window panes)
     - Search for `latex-input` and click the install button
@@ -113,6 +114,11 @@ Illustrate execution from `ipynb` file
 * julia> `convert_doc("MRK17_Exp1_rk01.jmd", "MRK17_Exp1_rk01.ipynb")`
 * julia> `using IJulia`
 * julia> `IJulia.notebook(dir=".")`
+
+### Notes
+
+* Don't look at fixed effects before model selection
+* Preface random effect specification with `zerocorr` to  (equivalent to ||)
 
 ## Power Simulation{#powersim}
 
