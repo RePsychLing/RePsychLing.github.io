@@ -27,7 +27,9 @@ Convenors: Reinhold Kliegl and Douglas Bates
 * [Github Repositories](https://github.com/RePsychLing)
 
 
-## Introduction: Douglas Bates
+## Introduction
+
+*Douglas Bates*
 
 * [LMM Complexities](https://github.com/RePsychLing/LMMComplexity)
     - `git clone https://github.com/RePsychLing/LMMComplexity.git`
@@ -63,9 +65,22 @@ Convenors: Reinhold Kliegl and Douglas Bates
 
 * [Tutorial Setup](https://github.com/RePsychLing/TutorialSetup)
 
+## Workflow for a complex LMM example
 
-## Power Simulation: Lisa DeBruine
+*Reinhold Kliegl*
+
+* []()
+
+## Power Simulation
+
+[*Lisa DeBruine*](https://debruine.github.io)
 
 * [GitHub Repository](https://github.com/RePsychLing/sim-tutorial) `git clone https://github.com/RePsychLing/sim-tutorial`
 * [MixedModelsSim package](https://github.com/RePsychLing/MixedModelsSim.jl)
     - pkg> `add https://github.com/RePsychLing/MixedModelsSim.jl`
+    
+## ManyBabies
+
+*Christina Bergmann*
+
+* [GitHub Repository](https://github.com/RePsychLing/mb1) `git clone https://github.com/RePsychLing/mb1.git`
