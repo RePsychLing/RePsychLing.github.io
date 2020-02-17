@@ -29,6 +29,15 @@ Convenors: Reinhold Kliegl and Douglas Bates
     - `git clone https://github.com/dalejbarr/kronmueller-barr-2007.git`
 * [NextJournal article](https://nextjournal.com/dmbates/complexity-in-fitting-linear-mixed-models/)
 
+Setting up:
+
+* Open the `LMMComplexity` directory in VSCode
+* Open the file `Complexity.jmd`
+* Shift-cmd-P to open the commands window and search for "Julia: Start REPL"
+* Type "]" in the Terminal window in VSCode to get the `pkg` prompt
+* Type "activate ."
+* Use backspace to get back to the julia prompt
+
 ### Installation Check
 
 * [Tutorial Setup](https://github.com/RePsychLing/TutorialSetup)
