@@ -26,7 +26,7 @@ data.frame(day = "Monday",  time = "08:00-09:00", event = "Breakfast") %>%
     add_row(day = "Wednesday",  time = "10:30-11:00", event = "Coffee & Tea") %>%
     
     add_row(day = "Monday",  time = "11:00-12:30", event = "[Installation Check](https://github.com/RePsychLing/TutorialSetup)\n\nReinhold Kliegl: [Workflow for a complex LMM example](complex.html)") %>%
-    add_row(day = "Tuesday",  time = "11:00-12:30", event = "[Dave Kleinschmidt: Extending the Julia formula syntax](https://repsychling.github.io/contrasts-and-formula/)\n\nBayoan Calderon: Setup of a Julia Project") %>%
+    add_row(day = "Tuesday",  time = "11:00-12:30", event = "Dave Kleinschmidt: [StatsModels.jl tour: Contrasts, `@formula`, and Terms](https://repsychling.github.io/contrasts-and-formula/)\n\nBayoan Calderon: Setup of a Julia Project") %>%
     add_row(day = "Wednesday",  time = "11:00-12:30", event = "Phillip Alday: Julia-R bridge, Parallel threads\n\nDouglas Bates: Confidence intervals for parameters") %>%
     
     add_row(day = "Monday",  time = "12:30-14:00", event = "Lunch") %>%
