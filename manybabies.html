@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
 
 <meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 <meta name="author" content="Christina Bergmann https://www.mpi.nl/people/bergmann-christina" />
 
 
-<title>Many Babies</title>
+<title>ManyBabies 1 Re-Analysis</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -71,6 +71,7 @@ code {
 }
 img {
   max-width:100%;
+  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -219,7 +220,6 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
-  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -231,6 +231,18 @@ $(document).ready(function () {
   display: none;
 }
 </style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
 
 <!-- code folding -->
 
@@ -305,15 +317,46 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Many Babies</h1>
+<h1 class="title toc-ignore">ManyBabies 1 Re-Analysis</h1>
 <h4 class="author">Christina Bergmann <a href="https://www.mpi.nl/people/bergmann-christina" class="uri">https://www.mpi.nl/people/bergmann-christina</a></h4>
 
 </div>
 
 
 <ul>
-<li><a href="https://github.com/RePsychLing/mb1">GitHub Repository</a> <code>git clone https://github.com/RePsychLing/mb1.git</code></li>
+<li><p><a href="https://github.com/RePsychLing/mb1">GitHub Repository</a> <code>git clone https://github.com/RePsychLing/mb1.git</code></p></li>
+<li><p>For more information about the ManyBabies project, see <a href="http://manybabies.stanford.edu/" class="uri">http://manybabies.stanford.edu/</a></p></li>
+<li><p>The data and main analysis can be found at <a href="https://github.com/manybabies/mb1-analysis-public" class="uri">https://github.com/manybabies/mb1-analysis-public</a>, stimuli, protocol, and further documentation is at <a href="https://osf.io/re95x/" class="uri">https://osf.io/re95x/</a></p></li>
 </ul>
+<p>The repository contains:</p>
+<ul>
+<li><p><code>MB1_analysis.jmd</code> - The main script, which</p>
+<ol style="list-style-type: decimal">
+<li>Reads in ManyBabies 1 data<br />
+</li>
+<li>Shapes it as needed<br />
+</li>
+<li>Reproduces the main analysis from the paper at <a href="https://github.com/manybabies/mb1-analysis-public" class="uri">https://github.com/manybabies/mb1-analysis-public</a><br />
+</li>
+<li>Fits the preregistered maximal model<br />
+</li>
+<li>Simplifies the random effects by inspecting the output of rePCA and the variance components<br />
+</li>
+<li>Shows what can go wrong with multi-lab data (subid vs subid_unique)<br />
+</li>
+<li>Re-processes more messy data to apply different cleaning criteria to deal with censoring (which you can adjust)<br />
+</li>
+<li>Re-runs the analysis</li>
+</ol></li>
+<li><p><code>MB1_analysis.ipynb</code> - The corresponding Jupyter notebook that you can run in your browser, but which differs from the converted version of the .jmd (split code blocks to see all output, converted R code cell)<br />
+</p></li>
+<li><p><code>MB1_minimal_lmer.R</code> - The R code needed to reproduce the main analysis of the paper, extracted from <a href="https://github.com/manybabies/mb1-analysis-public/blob/master/paper/mb1-paper.Rmd" class="uri">https://github.com/manybabies/mb1-analysis-public/blob/master/paper/mb1-paper.Rmd</a><br />
+</p></li>
+<li><p><code>intendend_complex_LMM.txt</code> - Output for the preregistered model (which still takes some time to fit)<br />
+</p></li>
+<li><p><code>Project.toml</code> and <code>Manifest.toml</code> - See <a href="https://repsychling.github.io/pkg.html" class="uri">https://repsychling.github.io/pkg.html</a></p></li>
+</ul>
+<p>For instructions how to run code in .jmd and .ipynb files, see <a href="https://repsychling.github.io/intro.html" class="uri">https://repsychling.github.io/intro.html</a></p>
 
 
 
@@ -332,23 +375,6 @@ $(document).ready(function () {
 
 
 </script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
