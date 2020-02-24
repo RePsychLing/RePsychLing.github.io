@@ -1,0 +1,39 @@
+---
+title: "Illustrations of MixedModels.PCA()"
+author: "Phillip Alday & Reinhold Kliegl"
+editor_options:
+  chunk_output_type: console
+---
+
+* [Github Repository](https://github.com/RePsychLing/MRK17_Exp1) `git clone https://github.com/RePsychLing/MRK17_Exp1.git`
+
+### Setting up
+
+* In VSCode open julia REPL (&#8679;&#8984;P) and type ";" to access the shell
+    * shell> `cd /dir/where/repo/goes/`
+    * shell> `git clone https://github.com/RePsychLing/MRK17_Exp1.git`
+    * shell> `cd MRK17_Exp1`
+* Open the `MRK17_Exp1` directory in VSCode
+* Open the file `MRK17_Exp1_rk02.jmd`
+* Shift-cmd-P to open the commands window and search for `Julia: Start REPL`
+* Type `]` in the Terminal window in VSCode to get the `pkg` prompt
+* pkg> `activate .`
+* Add/update some packages (get the `pkg` prompt with `]`)
+    - pkg> `add MixedModels#master`
+    - pkg> `st`
+* Use backspace to get back to the julia prompt
+
+Illustrate execution from `jmd` file.
+
+Illustrate execution from `ipynb` file
+
+* julia> `using Weave`
+* julia> `convert_doc("MRK17_Exp1_rk02.jmd", "MRK17_Exp1_rk02.ipynb")`
+* julia> `using IJulia`
+* julia> `IJulia.notebook(dir=".")`
+
+### Notes
+
+* Don't look at fixed effects before model selection
+* Preface random effect specification with `zerocorr` is very roughly comparable  to "||"  lme4-syntax.
+                           
