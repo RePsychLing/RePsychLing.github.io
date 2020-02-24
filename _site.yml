@@ -25,5 +25,7 @@ navbar:
       href: powersim.html
     - text: "ManyBabies"
       href: manybabies.html
+    - text: "MixedModels.PCA()"
+    - href: MixedModelsPCA.html
     - text: "Package Management"
       href: pkg.html
