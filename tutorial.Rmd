@@ -17,7 +17,7 @@ data.frame(day = "Monday",  time = "08:00-09:00", event = "Breakfast") %>%
     add_row(day = "Monday", time = "09:00-10:30", 
             event = "Britta Padberg: Welcome to  [ZiF](https://www.uni-bielefeld.de/(en)/ZiF/)\n\nDouglas Bates: [Introduction to the Julia-based MixedModels package](intro.html)") %>%
     add_row(day = "Tuesday", time = "09:00-10:30", 
-            event = "Christina Bergmann: [Reanalysis of ManyBabies1](manybabies.html)") %>%
+            event = "Christina Bergmann: [Reanalysis of ManyBabies1](manybabies.html)\n\nPhillip Alday: [ MixedModels.PCA()](https://github.com/RePsychLing/MRK17_Exp1/blob/master/MRK17_Exp1_rk02.html)") %>%
     add_row(day = "Wednesday", time = "09:00-10:30", 
             event = "Benedikt Ehinger / Dave Kleinschmidt: [Mixed-model timeseries analysis](https://www.unfoldtoolbox.org/index.html), see [Julia version - very alpha](https://github.com/unfoldtoolbox/unfold.jl)\n\nHannes Matuschek: [Prewhitening of LMMs](https://github.com/RePsychLing/PreWhitening)") %>%
     
