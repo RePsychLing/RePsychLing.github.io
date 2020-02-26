@@ -56,7 +56,8 @@ data.frame(day = "Monday",  time = "08:00-09:00", event = "Breakfast") %>%
 
 * [Tutorial Setup](https://github.com/RePsychLing/TutorialSetup)
 * [Github Repositories](https://github.com/RePsychLing)
-* [CheatSheet](https://juliadocs.github.io/Julia-Cheat-Sheet/)
+* [CheatSheet Julia](https://juliadocs.github.io/Julia-Cheat-Sheet/)
+* [CheatSheet Julia for r-efugees - see links](https://github.com/JuliaData/DataFrames.jl/issues/1530)
 * [Punctuation](https://docs.julialang.org/en/v1/base/punctuation/): brief documentation for mathematical symbols & functions
 * Shift-cmd-P in VSCode to get command list
 * [Julia Package Management](pkg.html) (by Dave Kleinschmidt)
