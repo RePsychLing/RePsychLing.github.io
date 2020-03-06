@@ -34,7 +34,7 @@ data.frame(day = "Monday",  time = "08:00-09:00", event = "Breakfast") %>%
     add_row(day = "Wednesday",  time = "12:30-14:00", event = "Lunch") %>%
     
     add_row(day = "Monday",  time = "14:00-15:30", event = "Participant Issues") %>%
-    add_row(day = "Tuesday",  time = "14:00-15:30", event = "Participant Issues") %>%
+    add_row(day = "Tuesday",  time = "14:00-15:30", event = "Participant Issues - Laurel Brehm: [Adding fixed effects programmatically](addFixef.html)") %>%
     add_row(day = "Wednesday",  time = "14:00-15:30", event = "Participant Issues") %>%
     
     add_row(day = "Monday",  time = "15:30-16:00", event = "Coffee & Tea") %>%

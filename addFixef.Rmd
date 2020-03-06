@@ -1,0 +1,26 @@
+---
+title: "Adding fixed effects programmatically in Julia"
+author: "Laurel Brehm"
+date: "3/4/2020"
+output: html_document
+---
+
+* Get the repository: https://github.com/RePsychLing/addFixef or `git clone https://github.com/RePsychLing/addFixef.git`
+
+For data sets that contain many possible predictors that could predict overlapping variance, it can be useful to build a model in a data-driven way. 
+
+This example script walks through how to build a series of mixed models in Julia where one predictor is added at a time, and then evaluated for contribution to model fit.  In doing so, it explores 2 properties of Julia: its lightning speed and the ease with which one can modify the model formula to fit new models.
+
+The test case explored here is what cues speakers use in order to synchronise their speech production with an interlocutor: for timely responding in dialogue, do properties like the last turn's onset or offset matter, and do they account for more variance than speaker-internal properties such as recent reaction time? See Brehm & Meyer, Psychonomics 2019 talk.
+
+This repo contains:
+
+* `bm2020partialData.csv` (some sample data for the example)
+
+* `addFixef.jmd` (code in Julia markdown)
+
+* `addFixef.ipynb` (exactly the same code in a Julia notebook if that's more your speed)
+
+Dependencies are in general, common to the rest of the RePsychLing tutorials, but I've also used Distributions (and include code for downloading it).
+
+For more specific instructions on running Julia code: https://repsychling.github.io/intro.html
